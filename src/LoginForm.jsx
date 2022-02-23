@@ -15,7 +15,7 @@ const LoginForm = () => {
 
     const [response, setResponse] = useState({});
 
-    useEffect(async () => {
+    useEffect(() => {
         if (login) {
             fetch(loginURL, {
                 method: "POST",

@@ -15,7 +15,7 @@ const RegisterForm = () => {
 
     const [response, setResponse] = useState({});
 
-    useEffect(async () => {
+    useEffect(() => {
 
         if (submit) {
             fetch(registerURL, {
